@@ -1,0 +1,21 @@
+<h1>Events</h1>
+<button (click)="getvalue()">call function</button>
+<br><br>
+<input type="text" (keyup)="getdata('ab')" placeholder="keyup Event">
+<br><br>
+<p>keydown, input and keypress are same work</p>
+
+<input type="password" #anu (keydown)="getdata(anu.value)" placeholder="keydown Event password">
+<br><br>
+<input type="text" #sahu (keypress)="getdata(sahu.value)" placeholder="keypress Event">
+<br><br>
+<input type="text" #relax (blur)="getdata(relax.value)" placeholder="blur Event">
+<br>
+<br>
+<input type="text" #ab (input)="getdata(ab.value)" placeholder="input Event" >
+<br>
+<br>
+<!-- <input type="text" (mouseover)="getdata('over')" placeholder="mouseover Event"> -->
+<h1 (mouseover)="getdata('over')">Anurag</h1>
+<h1 (mouseleave)="getdata('leave')">relax</h1>
+
