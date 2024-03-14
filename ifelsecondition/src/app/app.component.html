@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+<h1 *ngIf="show=='yes'; then if_block else else_block ">Anurag_sahu</h1>
+
+<ng-template #if_block>
+  <h1>If condition</h1>
+</ng-template>
+
+<ng-template #else_block>
+  <h1>else condition</h1>
+</ng-template>
+
