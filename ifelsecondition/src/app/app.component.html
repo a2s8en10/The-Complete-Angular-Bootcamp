@@ -1,5 +1,7 @@
 <h1>{{title}}</h1>
-<h1 *ngIf="show=='yes'; then if_block else else_block ">Anurag_sahu</h1>
+<!-- <h1 *ngIf="show=='yes'; then if_block else else_block ">Anurag_sahu</h1> -->
+<button (click)="condition('yes')">true</button>
+<button (click)="condition('false')" >false</button>
 
 <ng-template #if_block>
   <h1>If condition</h1>

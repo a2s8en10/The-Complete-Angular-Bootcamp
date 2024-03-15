@@ -10,6 +10,7 @@ export class AppComponent {
   show='yes'
   condition(type:string)
   {
+    type == 'yes' ? true : false
 
   }
 
