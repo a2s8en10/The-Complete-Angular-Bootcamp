@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'revision';
+  getname(){
+    alert("function called")
+  }
 }
